@@ -37,3 +37,44 @@ nav ul {
     padding: 0;
     flex-direction: row;
 }
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: black;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.about, .reviews, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 36px;
+}
+
+.review {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
